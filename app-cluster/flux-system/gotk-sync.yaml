@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/sanu1020/helmnewtest
+  url: ssh://git@github.com/sanu1020/flux
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
