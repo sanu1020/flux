@@ -10,7 +10,7 @@ spec:
   ref:
     branch: main
   secretRef:
-    name: flux-system
+    name: flux
   url: ssh://git@github.com/sanu1020/flux
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
